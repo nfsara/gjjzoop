@@ -1,81 +1,178 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset = "UTF-8">
-	<title>SekiPlex</title>
-	<link rel="stylesheet" href="styles.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<title>SekiPLEX</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
-
-<body class="background-image">
-
-	<h1 class="font1 center white">SekiPlex</h1>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Seki<span>PLEX</span> cinemas</h2>
+            <ul>
+                <li><a href="#">Naslovna Strana</a></li>
+                <li><a href="#">O Nama</a></li>
+                <li><a href="#">Repertoar</a></li>
+                <li><a href="#">Lokacije</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+            <a href="#" class="btn">Prijavite Se</a>
+        </nav>
+        
+        <div class="content">
+            <h4>Dobrodošli u</h4>
+            <h1>Seki<span>PLEX</span></h1>
+            <h3>Prijavite se na naš <span>newsletter</span> za najnovije vesti i specijalne ponude</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Unesite svoj E-mail">
+                    <input type="submit" name="submit" value="Unesi">
+                </form>
+            </div>
+        </div>
+    </div>
     
-	<h2 class="white">Nasi bioskopi</h2>
+    <section class="about">
+        <div class="main">
+            <img src="img/sekiplexns.jpg">
+            <div class="about-text">
+                <h2> O Nama</h2>
+                <h5>Vas omiljeni bioskop u <span> Srbiji</span></h5>
+                <p> Kompanija Kox-SekiPLEX u Srbiji je deo SekiPLEX grupe u regionu koja broji ukupno 26 SekiPLEX multipleksa, 169 bioskopskih sala i preko 24,420 sedišta, što čini SekiPLEX najvećim i najuspešnijim bioskopskim prikazivačem u regionu. 
+                    
+Međunarodno kinematografsko udruženje (UNIC) proglasilo je Kox-SekiPLEX najboljim prikazivačem u Evropi u 2019. godini. Nagrada „International Exhibitor of the Year“ uručena je Kox-SekiPLEXu na kongresu CineEurope u Barseloni uz obrazloženje da je reč o kompaniji koja podiže lestvicu u industriji i ostvaruje kontinuiran rast. Posebno su istakli kako Kox-SekiPLEX svojoj publici pruža najbolji mogući bioskopski doživljaj, stavljajući u prvi plan stalnu inovaciju, zbog čega je Kox-SekiPLEX postao jedan od vodećih i najbrže rastućih bisokopskih lanaca u regionu i Evropi. </p>
+                <button>Saznajte jos</button>
+            </div>
+        </div>
+    </section>
     
-	<ul>
-	<li class="font2 white">SekiPLex Novi Sad TC Sekinada</li>
+    <div class="service">
+        <div class="title">
+            <h2>Nase usluge</h2>
+        </div>
+        
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Repertoar</h5>
+                <div class="pra">
+                    <p>Ako biste da vidite najaktuelnije filmove koji su na raspolaganju, ovo je pravo mesto za Vas. Pogledajte koji su nasi iskreni predlozi i koje filmovi imaju najveci rejting! </p>
+                    
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <i class="far fa-user"></i>
+                <h5>Loyalty Club</h5>
+                <div class="pra">
+                    <p>Saznajte koje privilegije, ackije i slicno dobijate time sto cete se prikljuciti nasem Loyalty Club-u!</p>
+                    
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <i class="far fa-bell"></i>
+                <h5>Event Centar</h5>
+                <div class="pra">
+                    <p>Event centar je usluga namenjena organizaciji različitih vrsta događanja u SekiPLEX bioskopima.</p>
+                    
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     
-	<p style="float:left" class="font3 purple back-color">
+    <section class="contact">
+        <div class="content">
+            <h2>Kontaktirajte Nas</h2>
+            <p>Ukoliko imate bilo kakvih pitanja, predloga ili nedoumica, ne ustrucavajte se da nas kontaktirate i bicemo vise nego srecni da Vam pomognemo.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Adresa</h3>
+                        <p>Josip Bronx Titova Ulica 69,<br>Novi Sad,Srbija,<br>21000</p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Kontakt Telefon</h3>
+                        <p>+381 65-333-3338</p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email za novinarska pitanja</h3>
+                        <p>press@sekiplexcinemas.eu</p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email za opste informacije</h3>
+                        <p>info.rs@sekiplexcinemas.eu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Posaljite nam poruku</h2>
+                    <div class="inputBox">
+                        <input type="text" name=" " required="obavezno">
+                        <span>Puno Ime</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name=" " required="obavezno">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="obavezno"></textarea>
+                        <span>Ukucajte svoju poruku ovde...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Posalji">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     
-		<img style="float:right" src="sekiplexns.jpg" alt="SekiPlex Sekinada">
-        
-		„Боже правде“ је званична химна Републике Србије, дефинисана чланом 7 Устава.[1] „Боже правде“ је такође била химна Кнежевине Србије и Краљевине Србије до 1918. године, када је створена Краљевина Срба, Хрвата и Словенаца. Предложена верзија текста као химне одређена је законом 11. маја 2009.[2] Изворна песма настала је 1872. године, када је Јован Ђорђевић, инспирисан сатиричном Змајевом Народном химном, написао речи на музику Даворина Јенка. Композиција Јозефа Хајдна Царска химна имала је великог утицаја на мелодију. 
-        
-	    <br> <br>
-        
-		Песма је представљала завршницу позоришне представе „Маркова сабља“, осмишљене поводом пунолетства Милана Обреновића. Огромна популарност речи и мелодије допринеле су да ова песма постане званична српска државна химна. Деведесетих химне непрестано су се мењале са променом државног уређења и владара
-        
-        <br> <br>
-        
-        Након Мајског преврата, химна је поново уведена 1909, на рођендан краља Петра 29. јуна (12. јула)[4]. За време Краљевине Срба, Хрвата и Словенаца (касније Краљевине Југославије), „Боже правде“ је представљала део тадашње државне химне.
-        
-	</p>
-	
-	<li class="font2 white">SekiPlex+ TC Galerija</li>
+    <div class="contact-me">
+        <p>Napravite rezervaciju za sledecu projekciju ovde!</p>
+        <a class="button-two" href="#">Rezervisi</a>
+    </div>
     
-	<p style="float:left" class="font3 red back-color">
-    
-		<img style="float:right" src="sekiplexgal.jpg" alt="sekiplex galerija">
-        
-        Задње ноге су им знатно дуже од предњих, на којим се налази 4 или 5 прстију, између прстију се налазе тзв. пловне кожице које омогућавају кретање у води. Задње ноге су прилагођене за тзв. катапултарни скок. Највећи број жаба полаже хиљаде јаја у води, где ларве зване пуноглавци заврше ларвени период и метаморфозу.[3] Хране се мушицама, комарцима итд. Такође постоје отровне жабе које су „обојене“ живим бојама. Отров може усмртити мањег грабљивца ако је поједе, а неке жабе садрже толико отрова да чак могу усмртити човека. Индијанци се служе њиховим отровом за копља и стрелице.
-        
-	    <br> <br>
-        
-        Жлезде у кожи жабе налазе се у епидермалоном слоју који се зове усмина[5]. Усмина је испуњена везивним ткивом, а у њој се налазе пигментне ћелије (хроматофори), мишићна влакна и жлезде. Две врсте жлезда се налазе код правих жаба, а то су слузне (мукозне) и ледене жлезде[6]. Хроматофори садрже пигментна зрнца различитих боја: жуте, црвене, смеђе
-        
-	    <br> <br>
-        
-	    Одрасле јединке немају унутрашње ни спољашње шкрге. Оне се налазе искључиво у постембрионалном развоју, у стадијуму пуноглавца, на спољној страни животиње, као привесци, а служе као снабдевање крви кисеоником. Одрасле жабе дишу преко коже, јер су им плућа слабо развијена.
-        
-	</p>
-    
-	<li class="font2 white">SekiPlex Arena</li>
-    
-	<p style="float:left" class="font3 blue back-color">
-    
-		<img style="float:right" src="sekiplexar.jpg" alt="sekiplex arena">
-        
-        Promesajte jaja, jourt, vodu ,ulja i so u jednolicnu masu. Prvo malo izmutite jaja, pa onda dodajte ostalo.
-        
-        <br> <br>
-        
-	    Rasposli se jedna kora na radni sto i poprska se ravnomerno sa malo sitnog sira. Preko ove se stavi druga kora i opet se poprska sa malo sitnog sira, pa treca i sve tako dok se kore i sir ne potrose. Znaci, sve kore jedna preko druge.
-        
-	    <br> <br>
-        
-	    Onda se uviju u rolat i podele sa malim zasecima na deset jednakih delova. Ja to radim na dva prsta rastojanje i izagju deset parceta. Onga se ostrim nozem iseku parcici. Kako isecete parce, tako ga stavite u pleh, sa sirom stranom prema dole. Poregjajte sve parcice jedan do drugoga u dva reda, ako je plek dugacak. Ako je okrugli, onda redite naokolo i zavsavate u sredini.
-        
-	</p>
-    
-	</ul>
-
-	<h2 class="white">O nama</h2>
-    
-	<p class= "font3 green back-color">
-    
-	Biti najbolji i najveći bioskopski lanac u regiji koji će biti standard i merilo kvaliteta i profesionalnosti u svim segmentima poslovanja - posetiocima prvi izbor za bioskop, zaposlenima poželjan poslodavac, poslovnim subjektima pouzdan partner i društveno odgovorna kompanija.
-    
-	</p>
+    <footer>
+        <p>SekiPLEX</p>
+        <p>Ne propustite nove akcije, projekcije i obavestenja od Vaseg najvernijeg bioskopa, zapratite nas na drustvenim mrezama.</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="end">CopyRight By SekiPlex Cinema.</p>
+    </footer>
     
 </body>
 
