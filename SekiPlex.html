@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>SekiPLEX</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -22,6 +22,8 @@
                 <li><a href="#">Repertoar</a></li>
                 <li><a href="#">Lokacije</a></li>
                 <li><a href="#">Kontakt</a></li>
+                <li><p>Date/Time: <span id="datetime"></span></p></li>
+                
             </ul>
             <a href="#" class="btn">Prijavite Se</a>
         </nav>
@@ -41,7 +43,7 @@
     
     <section class="about">
         <div class="main">
-            <img src="img/sekiplexns.jpg">
+            <img src="../img/sekiplexns.jpg">
             <div class="about-text">
                 <h2> O Nama</h2>
                 <h5>Vas omiljeni bioskop u <span> Srbiji</span></h5>
@@ -95,6 +97,17 @@ Međunarodno kinematografsko udruženje (UNIC) proglasilo je Kox-SekiPLEX najbol
                 </div>
             </div>
         </div>
+    </div>
+    
+    <div class="pismeni">
+        <div class="kut1">
+          <h3>Ovo je Seki<span>PLEX</span></h3>
+        </div>
+        <div class="kut2">
+            <h3>Paragraf</h3>
+            <p>Nije sto je moj al je stvarno najbolji. </p>
+        </div>
+        <div class="kut3">Slika</div>
     </div>
     
     <section class="contact">
@@ -163,6 +176,11 @@ Međunarodno kinematografsko udruženje (UNIC) proglasilo je Kox-SekiPLEX najbol
         <p>Napravite rezervaciju za sledecu projekciju ovde!</p>
         <a class="button-two" href="#">Rezervisi</a>
     </div>
+    
+    <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+    </script>
     
     <footer>
         <p>SekiPLEX</p>
