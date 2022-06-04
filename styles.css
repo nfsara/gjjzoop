@@ -19,6 +19,42 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
+.pismeni > div{
+    flex: 1;
+    margin: 10px;
+}
+
+.pismeni{
+    display: flex;
+    background-color: black;
+}
+
+.kut1{
+    background-color: darkred;
+    height: 200px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.kut2{
+    background-color: red;
+    height: 200px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.kut3{
+    background-color: darkred;
+    background-image: url(../img/sekiplex.jpg);
+    height: 200px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+}
 .logo{
     color: white;
     font-size: 35px;
